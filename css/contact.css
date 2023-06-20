@@ -1,0 +1,45 @@
+.contact-content {
+  min-height: 100vh;
+  margin-top:30px ;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-content::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  min-height: inherit;
+  opacity: 1;
+  background-image: url('/img/contact-us.jpg');
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.img-set
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.img-set .fs
+{
+ font-size: 42px;
+}
+
+.social
+{
+  
+
+}
+
+.contact-form
+{
+   
+}
